@@ -2,4 +2,115 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+#heading {  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 69px;
+    width: 100%;
+    position: fixed;
+    padding: 0 10px;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+#heading img {
+    height: 50px;
+    width: auto;
+}
+
+#mission {
+    position: relative;
+    text-align: center;
+    top: 69px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#mission-content {
+    background-color: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    width: 1050px;
+    padding: 20px 0;
+}
+
+#mission img {
+    height: 700px;
+    width: auto;
+}
+
+#monthly {
+    text-align: center;
+    align-items: center;
+    width: 1000px;
+    padding: 25px 0;
+    position: relative;
+    top: 69px;
+    margin: auto;
+}
+
+#monthly #imgs {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#monthly img {
+    height: 200px;
+    width: 300px;
+}
+
+.imgdiv {
+    padding: 10px;
+}
+
+.imgdiv p {
+    padding-top: 10px;
+}
+
+#locations {
+    position: relative;
+    top: 69px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#locations img {
+    height: 500px;
+    width: 1200px;
+    object-fit: cover;
+}
+
+#locations h2 {
+    /* This needs to go on top of the image */
+}
+
+#location-content {
+    /*this too*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.location {
+    width: 300px;
+    height: auto;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.9);
 }
